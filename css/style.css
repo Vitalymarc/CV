@@ -36,9 +36,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	padding: 0px 15px;
 }
 
-@media (max-width:1000px){
+@media (max-width:944px){
 	.container{
-		max-width: 994px;
+		max-width: 944px;
 	}
 }
 
@@ -91,10 +91,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	display: flex;
 	justify-content: space-between;
 }
-.image{
-	max-width: 944px;
+.image-big img{
+	max-width: 100%;
 	align-items: center;
 }
+@media (max-width:914px){
+	.image-big img{
+		width: 1000%;
+	}
+}	
 .visit__name {
 	font-family: 'Conv_Gilroy-Bold';
 	font-size: 47.3392px;
